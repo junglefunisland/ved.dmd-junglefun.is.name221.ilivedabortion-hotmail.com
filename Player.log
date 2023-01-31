@@ -1,0 +1,121 @@
+Initialize engine version: 2018.4.7f1 (b9a993fd1334)
+GfxDevice: creating device client; threaded=1
+2023-01-30 17:27:14.824 Frogger TT[2414:168807] (null) preferred device: Apple M2 Pro (high power)
+2023-01-30 17:27:14.824 Frogger TT[2414:168807] Metal devices available: 1
+2023-01-30 17:27:14.824 Frogger TT[2414:168807] 0: Apple M2 Pro (high power)
+2023-01-30 17:27:14.825 Frogger TT[2414:168807] Using device Apple M2 Pro (high power)
+Initializing Metal device caps: Apple M2 Pro
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.146 seconds
+UnloadTime: 2.553959 ms
+FirstMenuController.Start()
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+Load GlobalScene.
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+[2][FirstMenuController.RefreshBestImage:0]: Screen Resolution: 3024 x 1964 [1.539715]
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+path: Prefabs/Apple/front/English_US-EN(36)
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 30f6a9000 -> priority: 1 
+  Thread -> id: 30f72c000 -> priority: 1 
+1   HIToolbox                           0x00007ff81b3cb726 _ZN15MenuBarInstance22EnsureAutoShowObserverEv + 102
+2   HIToolbox                           0x00007ff81b3cb2b8 _ZN15MenuBarInstance14EnableAutoShowEv + 52
+3   HIToolbox                           0x00007ff81b33acd7 _ZN15MenuBarInstance21UpdateAggregateUIModeE21MenuBarAnimationStylehhh + 1113
+4   HIToolbox                           0x00007ff81b3cb173 _ZN15MenuBarInstance19SetFullScreenUIModeEjj + 175
+5   AppKit                              0x00007ff81488e24b -[NSApplication _setPresentationOptions:instance:flags:] + 1145
+6   AppKit                              0x00007ff8146e3005 -[NSApplication _updateFullScreenPresentationOptionsForInstance:] + 582
+7   CoreFoundation                      0x00007ff8114bd6c6 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__ + 137
+8   CoreFoundation                      0x00007ff811556cac ___CFXRegistrationPost_block_invoke + 86
+9   CoreFoundation                      0x00007ff811556c03 _CFXRegistrationPost + 534
+10  CoreFoundation                      0x00007ff811490e21 _CFXNotificationPost + 809
+11  Foundation                          0x00007ff812207abc -[NSNotificationCenter postNotificationName:object:userInfo:] + 82
+12  AppKit                              0x00007ff81488e8bc spacesNotificationHandler + 119
+13  SkyLight                            0x00007ff81602f23d _ZN12_GLOBAL__N_123notify_datagram_handlerEj15CGSDatagramTypePvmS1_ + 1030
+14  SkyLight                            0x00007ff81634205a _ZN21CGSDatagramReadStream26dispatchMainQueueDatagramsEv + 202
+15  SkyLight                            0x00007ff816341f81 ___ZN21CGSDatagramReadStream15mainQueueWakeupEv_block_invoke + 18
+16  libdispatch.dylib                   0x00007ff81126c7fb _dispatch_call_block_and_release + 12
+17  libdispatch.dylib                   0x00007ff81126da44 _dispatch_client_callout + 8
+18  libdispatch.dylib                   0x00007ff81127a7b9 _dispatch_main_queue_drain + 952
+19  libdispatch.dylib                   0x00007ff81127a3f3 _dispatch_main_queue_callback_4CF + 31
+20  CoreFoundation                      0x00007ff81150642d __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 9
+21  CoreFoundation                      0x00007ff8114c6ebb __CFRunLoopRun + 2498
+22  CoreFoundation                      0x00007ff8114c5e7f CFRunLoopRunSpecific + 560
+23  HIToolbox                           0x00007ff81b358766 RunCurrentEventLoopInMode + 292
+24  HIToolbox                           0x00007ff81b358576 ReceiveNextEventCommon + 679
+25  HIToolbox                           0x00007ff81b3582b3 _BlockUntilNextEventMatchingListInModeWithFilter + 70
+26  AppKit                              0x00007ff814551293 _DPSNextEvent + 909
+27  AppKit                              0x00007ff814550114 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 1219
+28  AppKit                              0x00007ff814542757 -[NSApplication run] + 586
+29  AppKit                              0x00007ff814516797 NSApplicationMain + 817
+30  UnityPlayer.dylib                   0x000000010f657cb7 _Z10PlayerMainiPPKc + 1319
+31  dyld                                0x0000000204f0b310 start + 2432
+1   HIToolbox                           0x00007ff81b3580c2 _ZN15MenuBarInstance22RemoveAutoShowObserverEv + 30
+2   HIToolbox                           0x00007ff81b394638 _ZL17BroadcastInternaljPvh + 167
+3   SkyLight                            0x00007ff81602f23d _ZN12_GLOBAL__N_123notify_datagram_handlerEj15CGSDatagramTypePvmS1_ + 1030
+4   SkyLight                            0x00007ff81634205a _ZN21CGSDatagramReadStream26dispatchMainQueueDatagramsEv + 202
+5   SkyLight                            0x00007ff816341f81 ___ZN21CGSDatagramReadStream15mainQueueWakeupEv_block_invoke + 18
+6   libdispatch.dylib                   0x00007ff81126c7fb _dispatch_call_block_and_release + 12
+7   libdispatch.dylib                   0x00007ff81126da44 _dispatch_client_callout + 8
+8   libdispatch.dylib                   0x00007ff81127a7b9 _dispatch_main_queue_drain + 952
+9   libdispatch.dylib                   0x00007ff81127a3f3 _dispatch_main_queue_callback_4CF + 31
+10  CoreFoundation                      0x00007ff81150642d __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 9
+11  CoreFoundation                      0x00007ff8114c6ebb __CFRunLoopRun + 2498
+12  CoreFoundation                      0x00007ff8114c5e7f CFRunLoopRunSpecific + 560
+13  HIToolbox                           0x00007ff81b358766 RunCurrentEventLoopInMode + 292
+14  HIToolbox                           0x00007ff81b358576 ReceiveNextEventCommon + 679
+15  HIToolbox                           0x00007ff81b3582b3 _BlockUntilNextEventMatchingListInModeWithFilter + 70
+16  AppKit                              0x00007ff814551293 _DPSNextEvent + 909
+17  AppKit                              0x00007ff814550114 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 1219
+18  AppKit                              0x00007ff814542757 -[NSApplication run] + 586
+19  AppKit                              0x00007ff814516797 NSApplicationMain + 817
+20  UnityPlayer.dylib                   0x000000010f657cb7 _Z10PlayerMainiPPKc + 1319
+21  dyld                                0x0000000204f0b310 start + 2432
+macOS Device Model is Mac14,9
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+Couldn't find performance settings for device Mac14,9. Defaulting to MobileHigh (new device)
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+Chose performance level MobileHigh for Mac14,9
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+[TouchScript] Initialized Unity mouse input.
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+[SaveLoad]LoadData (FromServer=False)
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+[SaveLoad]LoadData Ignore
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+GlobalScene Start()
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+The referenced script on this Behaviour (Game Object 'FrogletNum') is missing!
+ 
+(Filename:  Line: 294)
+
+The referenced script on this Behaviour (Game Object 'FrogletNum') is missing!
+ 
+(Filename:  Line: 294)
+
+GameUI.Start()
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
